@@ -1,0 +1,23 @@
+// Find min and max of all elements in array:
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a[5];
+  int i,min,max;
+  clrscr();
+  for(i=0;i<=4;i++)
+  scanf("%d",&a[i]);
+  max=min=a[0];
+  for(i=0;i<=4;i++)
+  {
+   if(min>a[i])
+   min=a[i];
+   if(max<a[i])
+   max=a[i];
+   }
+   printf("Max element of array = %d \n",max);
+   printf("Min element of array = %d ",min);
+  getch();
+  }
