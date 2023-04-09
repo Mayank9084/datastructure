@@ -1,0 +1,24 @@
+ // Linear Search in array:
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a[5],i,pos,num;
+  clrscr();
+  printf("enter number : ");
+  for(i=0;i<=4;i++)
+  scanf("%d",&a[i]);
+  printf("Enter the number to find = ");
+  scanf("%d",&num);
+  for(i=0;i<=4;i++)
+  {
+   if(a[i]==num)
+   {
+   pos=i;
+   break;
+   }
+   }
+   printf("\n Found at index = %d \n",pos);
+  getch();
+  }
