@@ -69,7 +69,7 @@ void printpoly(node *ptr)
 {
     if(ptr!=NULL)
     printf("%dx^%d",ptr->coeff,ptr->power);
-    for(ptr=ptr->next;ptr!=NULL;ptr=Ptr->next)
+    for(ptr=ptr->next;ptr!=NULL;ptr=ptr->next)
     {
         if(ptr->coeff>0)
         printf("+");
