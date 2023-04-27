@@ -10,7 +10,7 @@ typedef struct nodeType
 void printpoly(node *);
 void readPolynomial(node **);
 void addPoly(node *,node*,node**);
-void addNode(node **,float,int);
+void addNode(node **,int,int);
 void main()
 {
     node *poly1,*poly2,*poly3;
